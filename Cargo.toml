@@ -1,0 +1,13 @@
+[package]
+name = "ecmd"
+version = "0.1.0"
+authors = ["Some Dude <7zbayf+sw1l67jjhlbk@sharklasers.com>"]
+
+[dependencies]
+nfqueue = "0.9"
+netdefs = { path = "../netdefs/" }
+ipsets = { path = "../ipsets-rs/" }
+chrono = "0.4"
+lazy_static = "0.2.8"
+pnet = "0.17.1"
+libc = "0.2.24"
